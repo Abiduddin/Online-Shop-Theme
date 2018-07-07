@@ -4,13 +4,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Buy it</title>
-        <script src="../jquery.min.js" type="text/javascript"></script>
-        <link href="../style1.css" rel="stylesheet" type="text/css"/>
-        <script src="../jquery.slides.min.js" type="text/javascript"></script>
-        <script src="../script1.js" type="text/javascript"></script>
-        
+        <script src="../lib/jquery.min.js" type="text/javascript"></script>
+        <link href="../css/style1.css" rel="stylesheet" type="text/css"/>
+        <script src="../lib/jquery.slides.min.js" type="text/javascript"></script>
+        <script src="../js/script1.js" type="text/javascript"></script>
 
-    
+
         <script>
             $(function(){
                 $('#slides').slidesjs({
@@ -27,7 +26,7 @@
         </script>
     </head>
     <body>
-        
+
         <div class="navigation_main clear">
             <div class="navigation clear">
             <ul>
@@ -39,18 +38,18 @@
             </div>
             <div class="navigation_sec clear">
                 <ul>
-                    <li><a href="../login.php">Sing In</a></li>
-                
-                    <li><a href="../signup.php">Sign Up</a></li>
+                <li><a href="../login.php">Sing In</a></li>
+
+                <li><a href="../signup.php">Sign Up</a></li>
                 <li><a href="#">Cart</a></li>
                 <li><a href="#">Need Help?</a></li>
                 </ul>
             </div>
         </div>
-        
+
         <div class="body_main clear">
             <div class="body_sub clear">
-                
+
                 <div class="category_left clear">
                 <ul>
                     <li><a href="#cat" class="active">CATEGORY</a></li>
@@ -65,15 +64,15 @@
 
                 </ul>
                 </div>
-                
+
                 <div class="banner clear">
                     <div id='slides'>
                         <img src="../images/banner1.jpg" alt="Not Found">
                         <img src="../images/banner2.jpg" alt="Not Found">
                         <img src="../images/banner3.jpg" alt="Not Found">
                         <img src="../images/banner4.jpg" alt="Not Found">
-                        
-                        
+
+
                     </div>
                 </div>
 
@@ -86,21 +85,21 @@
                             <li><a href="phone_item.php">Smart Electronics</a></li>
                         </ul>
                     </div>
-                    
-                    
-                    
-                    
-                    
+
+
+
+
+
                 </div>
             </div>
-            
-            
-            
+
+
+
         <div class="footer"></div>
         </div>
-        
-        
-        
+
+
+
         <?php
         // put your code here
         ?>
